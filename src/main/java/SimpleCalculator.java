@@ -27,6 +27,10 @@ public class SimpleCalculator {
 			result +=x;
 	}
 	
+	public void dnc(int x) {
+		  
+		result -=x;
+}
 	public int getResult() {
 		return result;
 	}

@@ -45,5 +45,13 @@ public class SimpleCalculatorTest {
 		calc.inc(200);
 		assertEquals(300, calc.getResult());
 	}
+	@Test
+	public void testdnc() {
+		SimpleCalculator calc = new SimpleCalculator();
+		calc.dnc(100);
+		assertEquals(-100, calc.getResult());
+		calc.dnc(200);
+		assertEquals(-300, calc.getResult());
+	}
 
 }
